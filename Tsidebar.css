@@ -1,0 +1,105 @@
+
+
+
+.sidebar {
+    position: fixed;
+    background-color: black;
+    overflow-y: scroll;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 180px;
+    color: white;
+}
+
+.sidebar-logo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: black;
+    height: 58px;
+    width: 58px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: 97px;
+    margin-bottom: 0px;
+}
+
+        .hover-logo {
+                position: absolute;
+                background-color: gray;
+                opacity: 0;
+                height: 58px;
+                width: 58px;
+                border-radius: 50%;
+                transition: 0.2s;
+        }
+
+        .hover-logo:hover {
+                opacity: 0.2;
+        }
+
+.sidebar-icons-logo {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    
+}
+
+
+
+.sidebar-box {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    height: 51px;
+    width: 51px;
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    
+}
+
+.sidebar-icons {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+                    .hover-icon {
+                        position: absolute;
+                        background-color: gray;
+                        opacity: 0;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        transition-duration: 0.2s;
+                    }
+
+                    .hover-icon:hover {
+                        opacity: 0.2;
+                    }
+
+
+                    .icon-des {
+                        z-index: 100;
+                        font-size: 11px;
+                        position: absolute;
+                        background-color: rgb(61, 93, 114);
+                        color: white;
+                        padding: 5px;
+                        border-radius: 3px;
+                        margin-top: 50px;
+                        margin-right: auto;
+                        margin-left: auto;
+                        opacity: 0;
+                        transition-delay: 1s;
+                        pointer-events: none;
+                    }
+
+
+                    .sidebar-box:hover .icon-des{
+                        opacity: 0.8;
+                    }

@@ -1,0 +1,184 @@
+.sidebar2 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    right: 0px;
+    color: white;
+    top: 53px;
+    bottom: auto;
+    right: 0px;
+    left: auto;
+    width: 475px;
+     height: 700px;
+    background-color: black;
+    padding-left: 10px;
+    align-items: center;
+    z-index: 0;
+}
+
+            .subscribe-body {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(22, 24, 28);
+                height: 144px;
+                width: 352px;
+                border-radius: 15px;
+                margin-top: 14px;
+                margin-left: 20px;
+                margin-right: auto;
+                margin-bottom: 20px;
+            }
+
+            .sub-title {
+                font-size: 20px;
+                font-weight: 800;
+                margin-top: 12px;
+                margin-left: 16px;
+                margin-bottom: 0px;
+            }
+
+            .sub-des {
+                width: 300px;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 20px;
+                margin-top: 10px;
+                margin-left: 16px;
+                margin-bottom: 0px;
+            }
+
+            .sub-button {
+                height: 36px;
+                width: 106px;
+                border-radius: 20px;
+                border: none;
+                background-color: rgb(29,155,240);
+                color: white;
+                font-size: 15px;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-left: 16px;
+                margin-right: 0px;
+                cursor: pointer;
+            }
+
+                        .sub-button:hover {
+                            background-color: rgb(26, 140, 216);
+                        }
+
+
+
+
+.wtf-body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 24, 28);
+    height: 298px;
+    width: 352px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+
+.wtf-title {
+    height: 48px;
+    width: 352px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 14px;
+    padding-left: 16px;
+    margin-bottom: 0px;
+}
+
+.wtf-body-sec {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 62px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+        .wtf-body-sec:hover {
+            background-color: rgb(33, 35, 41);
+        }
+
+.wtf-img-box {
+    display: flex;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-right: 12px;
+}
+
+.wtf-text {
+    height: 41px;
+    width: 100px;
+}
+
+        .wtf-name {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 0px;
+        }
+
+        .wtf-account {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 2px;
+        }
+
+.follow-button {
+    height: 32px;
+    width: 78px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    margin-left: 88px;
+    cursor: pointer;
+}
+
+        .follow-button:hover {
+            background-color: rgb(238, 238, 238);
+        }
+
+.wtf-show {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(29, 155, 240);
+    margin-left: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+                                .terms {
+                                    display: flex;
+                                    flex-direction: row;
+                                    height: 50px;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    color: rgb(113, 118, 123);
+                                    margin-top: 16px;
+                                    margin-right: 70px;
+                                    margin-bottom: 30px;
+                                    cursor: pointer;
+                                }
+
+                                        .terms-box:hover {
+                                            text-decoration: underline;
+                                        }
+
+                                .terms-box {
+                                    height: 20px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    margin-right: 20px;
+                                }
